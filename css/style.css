@@ -20,10 +20,6 @@
   height: 50px;
 }
 
-main{
-    margin: 10px 10px 10px 10px;
-}
-
 .title{
     margin: 10px 10px 10px 10px;
 }
@@ -31,6 +27,10 @@ main{
 a{
     text-decoration: none;
     color: #2BADE6;
+}
+
+.margin{
+    margin: 10px 10px 10px 10px;
 }
 
 .date , .author{
@@ -43,3 +43,32 @@ a{
 .caption{
     font-size: 0.6em;
 }
+
+
+thead{
+  background-color:#20A9E5;
+  color:white;
+}
+
+tbody{
+    background-color:#B1E5F2;
+  }
+  
+tr:nth-child(2) {
+    background-color:rgb(255, 255, 255);
+
+  }
+
+  th:nth-child(1) {
+    width: 20%;
+
+  }
+
+  th:nth-child(2) {
+    width: 20%;
+
+  }
+  th:nth-child(3) {
+    width: 60%;
+
+  }
