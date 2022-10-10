@@ -30,6 +30,11 @@ a {
     color: #2BADE6;
 }
 
+h3 {
+    margin: 0px 0px 10px 15px;
+
+}
+
 .yellow {
     background-color: #FFFF00;
 }
@@ -82,7 +87,7 @@ th:nth-child(3) {
 }
 
 .monitor {
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 10px 15px;
     position: relative;
     width: 312px;
     height: 208px;
@@ -101,7 +106,7 @@ th:nth-child(3) {
 }
 
 .graph {
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 10px 15px;
     position: relative;
     width: 312px;
     height: 208px;
